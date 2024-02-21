@@ -23,6 +23,7 @@ makeButton.addEventListener(
   }
 );
 
+// Enterで構文生成するはずだった
 skillInput.addEventListener(
   'keydown',
   (event) => {
@@ -31,8 +32,6 @@ skillInput.addEventListener(
     }
   }
 )
-
-// ここにEnterで構文生成
 
 /**
  * スキル回数を渡すと構文を返す関数
