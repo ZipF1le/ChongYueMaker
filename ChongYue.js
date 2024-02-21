@@ -21,6 +21,15 @@ makeButton.addEventListener(
     console.log(ChongYueMaker(skill));
     resultDivision.appendChild(paragraph);
   }
+);
+
+skillInput.addEventListener(
+  'keydown',
+  (event) => {
+    if(event.code === 'Enter') {
+      makeButton.dispatchEvent(new Event('click'));
+    }
+  }
 )
 
 // ここにEnterで構文生成
